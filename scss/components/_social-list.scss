@@ -1,0 +1,7 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+.social-list__item:not(:last-child) {
+  margin-right: 10px;
+}

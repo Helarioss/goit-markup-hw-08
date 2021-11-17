@@ -1,0 +1,78 @@
+.subscribe {
+  display: flex;
+  width: 100%;
+
+  @media screen and (max-width: 1199px) {
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    align-items: flex-end;
+  }
+}
+
+.subscribe__label {
+  display: block;
+  width: 100%;
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+}
+
+.subscribe__text {
+  display: block;
+  margin-bottom: 20px;
+
+  @include font();
+  text-transform: uppercase;
+}
+
+.subscribe__email {
+  display: block;
+  min-height: 50px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  padding: 15px 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  color: var(--second-color);
+  background-color: transparent;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+
+  &::placeholder {
+    @include font(400, 16px, 1.25, var(--primary-ls), rgba(255, 255, 255, 0.6));
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+  }
+}
+
+.subscribe__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    background-color: var(--second-accent-color);
+  }
+}
+
+.subscribe__icon {
+  margin-left: 10px;
+  fill: currentColor;
+}
