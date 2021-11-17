@@ -78,26 +78,31 @@
   border: none;
   background-color: #fff;
 
+  cursor: pointer;
+
   &:hover,
   &:focus {
     color: var(--first-accent-color);
   }
 
-  & .menu__icon-cross {
+  @media screen and (min-width: 767px) {
     display: none;
   }
 }
 
 .btn-menu--open {
-  & .menu__icon-burger {
+  & .btn-menu__icon--menu {
     display: none;
   }
-  & .menu__icon-cross {
+  & .btn-menu__icon--cross {
     display: block;
   }
 }
 
-.menu,
-.contacts {
+.btn-menu__icon {
+  fill: currentColor;
+}
+
+.btn-menu__icon--cross {
   display: none;
 }

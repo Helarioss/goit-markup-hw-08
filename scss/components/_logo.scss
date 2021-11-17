@@ -4,6 +4,14 @@
 
   font-family: var(--accent-ff), sans-serif;
   @include font(var(--primary-fw), 24px, 1.16, var(--primary-ls), inherit);
+
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }
 
 .logo--theme-light {
