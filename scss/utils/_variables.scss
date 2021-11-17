@@ -1,0 +1,44 @@
+:root {
+  //COLORS
+  --logo-color: #000000;
+
+  --primary-color: #212121;
+  --second-color: #ffffff;
+  --third-color: #757575;
+  --fourth-color: rgba(255, 255, 255, 0.6);
+
+  --first-accent-color: #2196f3;
+  --second-accent-color: #188ce8;
+
+  --first-bg-color: #2f303a;
+  --second-bg-color: #f5f4fa;
+
+  --icon-color: #afb1b8;
+
+  --header-border-color: #ececec;
+  --works-cards-border-color: #eeeeee;
+
+  // FONTS
+  --primary-ff: 'Roboto';
+  --accent-ff: 'Raleway';
+
+  --hero-fs: 44px;
+  --hero-fw: 900;
+  --hero-lh: 1.36;
+  --hero-ls: 0.06em;
+
+  --title-fs: 36px;
+  --title-fw: 700;
+  --title-lh: 1.17;
+  --title-ls: 0.03em;
+
+  --primary-fs: 14px;
+  --primary-fw: 700;
+  --primary-lh: 1.14;
+  --primary-ls: 0.03em;
+
+  // OTHER
+  --list-gap: 30px;
+  --duration: 250ms;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}

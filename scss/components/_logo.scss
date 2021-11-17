@@ -1,0 +1,19 @@
+.logo {
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  font-family: var(--accent-ff), sans-serif;
+  @include font(var(--primary-fw), 24px, 1.16, var(--primary-ls), inherit);
+}
+
+.logo--theme-light {
+  color: var(--logo-color);
+}
+
+.logo--theme-dark {
+  color: var(--second-color);
+}
+
+.logo__web {
+  color: var(--first-accent-color);
+}

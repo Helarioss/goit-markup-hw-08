@@ -1,0 +1,13 @@
+@mixin font(
+  $font-weight: var(--primary-fw),
+  $font-size: var(--primary-fs),
+  $line-height: var(--primary-lh),
+  $letter-spacing: var(--primary-ls),
+  $color: inherit
+) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
