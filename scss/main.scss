@@ -9,8 +9,8 @@
 // COMPONENTS
 @import './components/logo';
 @import './components/btn';
-// @import './components/title';
-// @import './components/wrapper';
+@import './components/title';
+
 @import './components/social-list';
 @import './components/social-link';
 
@@ -21,19 +21,21 @@
 @import './components/contacts';
 @import './components/subscribe';
 
-// @import './components/backdrop';
-// @import './components/modal';
-// @import './components/modal-form';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
+@import './components/wrapper';
 
-// @import './components/filter';
-// @import './components/works';
+@import './components/filter';
+@import './components/works';
 
-// // LAYOUT
+// LAYOUT
 
 @import './layout/header';
-// @import './layout/hero';
-// @import './layout/features';
-// @import './layout/gallery';
-// @import './layout/team';
-// @import './layout/clients';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/gallery';
+@import './layout/team';
+@import './layout/clients';
 @import './layout/footer';
+@import './layout/portfolio';
