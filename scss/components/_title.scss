@@ -1,0 +1,17 @@
+.title {
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  @include font(
+    var(--title-fw),
+    var(--title-fs),
+    var(--title-lh),
+    var(--title-ls),
+    var(--primary-color)
+  );
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+}
