@@ -30,7 +30,7 @@
 
 .header__btn-menu {
   position: relative;
-  z-index: 2;
+  z-index: 6;
 }
 
 .header__menu-container {
@@ -38,6 +38,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 5;
 
     display: none;
     min-height: 796px;

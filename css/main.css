@@ -912,7 +912,7 @@ img {
 
 .header__btn-menu {
   position: relative;
-  z-index: 2;
+  z-index: 6;
 }
 
 @media screen and (max-width: 767px) {
@@ -920,6 +920,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 5;
     display: none;
     min-height: 796px;
     width: 100%;
