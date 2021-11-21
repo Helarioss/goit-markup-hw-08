@@ -77,6 +77,7 @@
   padding: 0;
   border: none;
   background-color: #fff;
+  line-height: 0;
 
   cursor: pointer;
 
@@ -90,19 +91,6 @@
   }
 }
 
-.btn-menu--open {
-  & .btn-menu__icon--menu {
-    display: none;
-  }
-  & .btn-menu__icon--cross {
-    display: block;
-  }
-}
-
 .btn-menu__icon {
   fill: currentColor;
-}
-
-.btn-menu__icon--cross {
-  display: none;
 }

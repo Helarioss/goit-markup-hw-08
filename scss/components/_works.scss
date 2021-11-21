@@ -71,6 +71,12 @@
   border-top: none;
 }
 
+.works__desc--special {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-bottom: 56px;
+  }
+}
+
 .works__item-title {
   margin-bottom: 4px;
 
