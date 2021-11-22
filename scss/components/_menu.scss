@@ -16,13 +16,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  @include font(
-    500,
-    var(--primary-fs),
-    var(--primary-lh),
-    0.02em,
-    var(--primary-color)
-  );
+  @include font($fw: 500, $ls: 0.02em, $clr: var(--primary-color));
 
   &:hover,
   &:focus,

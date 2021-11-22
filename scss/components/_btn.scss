@@ -6,7 +6,7 @@
   border-radius: 4px;
 
   font-family: inherit;
-  @include font(var(--primary-fw), 16px, 1.87, 0.06em, var(--second-color));
+  @include font($fs: 16px, $lh: 1.87, $ls: 0.06em, $clr: var(--second-color));
 
   cursor: pointer;
   background-color: var(--first-accent-color);
@@ -76,7 +76,7 @@
 .btn-menu {
   padding: 0;
   border: none;
-  background-color: #fff;
+  background-color: var(--second-color);
   line-height: 0;
 
   cursor: pointer;

@@ -2,13 +2,7 @@
   text-align: center;
   margin-bottom: 12px;
 
-  @include font(
-    var(--primary-fw),
-    20px,
-    1.5,
-    var(--primary-ls),
-    var(--primary-color)
-  );
+  @include font($fs: 20px, $lh: 1.5, $clr: var(--primary-color));
 
   @media screen and (min-width: 1200px) {
     line-height: 1.15;
@@ -78,9 +72,6 @@
       0.01em,
       rgba(117, 117, 117, 0.5)
     );
-    font-size: var(--primary-fs);
-    line-height: var(--primary-lh);
-    letter-spacing: 0.01em;
   }
 }
 

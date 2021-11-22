@@ -46,12 +46,7 @@
 }
 
 .mobile-menu__link {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
-
-  color: var(--primary-color);
+  @include font(500, 40px, 1.18, 0.02em, var(--primary-color));
   transition: color var(--duration) var(--cubic);
 
   &:hover,
@@ -78,22 +73,11 @@
 }
 
 .mobile-menu__contacts-phone {
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.18;
-
-  letter-spacing: 0.02em;
-
-  color: var(--first-accent-color);
+  @include font(500, 34px, 1.18, 0.02em, var(--first-accent-color));
 }
 
 .mobile-menu__contacts-email {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.02em;
-
-  color: var(--third-color);
+  @include font(500, 24px, 1.16, 0.02em, var(--third-color));
 }
 
 .mobile-menu__social {
@@ -119,12 +103,7 @@
 .mobile-menu__social-link {
   display: block;
 
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
-
-  color: var(--first-accent-color);
+  @include font(500, 18px, 1.22, 0.02em, var(--first-accent-color));
 
   &:hover,
   &:focus {

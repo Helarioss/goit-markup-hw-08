@@ -11,12 +11,7 @@
   display: flex;
   align-items: center;
 
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.02em;
-
-  color: var(--third-color);
+  @include font(500, 12px, 1.16, 0.02em, var(--third-color));
 
   transition: color var(--duration) var(--cubic);
 

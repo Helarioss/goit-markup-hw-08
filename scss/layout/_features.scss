@@ -40,10 +40,8 @@
 .features__title {
   margin-bottom: 10px;
 
-  font-weight: var(--primary-fw);
-  font-size: var(--primary-fs);
-  line-height: var(--primary-lh);
-  letter-spacing: var(--primary-ls);
+  @include font();
+
   text-transform: uppercase;
 
   @media screen and (max-width: 767px) {

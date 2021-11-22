@@ -77,14 +77,15 @@
 .hero__title {
   margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.62;
+  @include font(
+    var(--hero-fw),
+    26px,
+    1.62,
+    var(--hero-ls),
+    var(--second-color)
+  );
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  color: #fff;
 
   @media screen and (min-width: 1200px) {
     @include font(
