@@ -10,5 +10,6 @@
 
   function toggleModal() {
     refs.modal.classList.toggle('backdrop--hidden');
+    document.body.classList.toggle('overflow-hidden');
   }
 })();
