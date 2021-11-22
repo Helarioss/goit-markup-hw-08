@@ -1,12 +1,12 @@
-// BASE
-@import './base/common'; //
+// // BASE
+@import './base/common';
 
-// UTILS
+// // UTILS
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/mixins';
 
-// COMPONENTS
+// // COMPONENTS
 @import './components/logo';
 @import './components/btn';
 @import './components/title';
@@ -31,7 +31,7 @@
 @import './components/filter';
 @import './components/works';
 
-// LAYOUT
+// // LAYOUT
 
 @import './layout/header';
 @import './layout/hero';

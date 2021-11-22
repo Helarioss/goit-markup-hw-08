@@ -7,13 +7,13 @@
   justify-content: center;
   flex-wrap: wrap;
 
-  margin-right: calc(-1 * var(--list-gap));
+  margin-left: calc(-1 * var(--list-gap));
   margin-bottom: calc(-1 * var(--list-gap));
 }
 
 .team__item {
   flex-basis: 100%;
-  margin-right: var(--list-gap);
+  margin-left: var(--list-gap);
   margin-bottom: var(--list-gap);
 
   background-color: var(--second-color);

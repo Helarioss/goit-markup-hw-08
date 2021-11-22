@@ -3,15 +3,19 @@
   justify-content: center;
   flex-wrap: wrap;
 
-  margin-right: calc(-1 * var(--list-gap));
+  margin-left: calc(-1 * var(--list-gap));
   margin-bottom: calc(-1 * var(--list-gap));
 }
 
 .clients__item {
   height: 92px;
-  flex-basis: calc(100% / 2 - var(--list-gap));
-  margin-right: var(--list-gap);
+  flex-basis: 100%;
+  margin-left: var(--list-gap);
   margin-bottom: var(--list-gap);
+
+  @media screen and (min-width: 480px) {
+    flex-basis: calc(100% / 2 - var(--list-gap));
+  }
 
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 3 - var(--list-gap));
