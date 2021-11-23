@@ -68,7 +68,7 @@
           </li>
         </ul>
 
-        <button class="btn-menu" data-menu-open>
+        <button class="btn-menu js-open-menu">
           <svg width="40" height="40" aria-label="Открыть меню">
             <use
               class="btn-menu__icon--menu btn-menu__icon"
@@ -78,8 +78,8 @@
         </button>
 
         <!-- MOBILE MENU -->
-        <div class="mobile-menu" data-menu>
-          <button class="mobile-menu__btn-menu btn-menu" data-menu-close>
+        <div class="mobile-menu js-menu-container">
+          <button class="mobile-menu__btn-menu btn-menu js-close-menu">
             <svg width="40" height="40" aria-label="Закрыть меню">
               <use
                 class="mobile-menu__btn btn-menu__icon--cross btn-menu__icon"
@@ -865,7 +865,7 @@
             </ul>
           </div>
         </div>
-        <form class="subscribe" name="subscribe">
+        <form class="footer__subscribe subscribe" name="subscribe">
           <label class="subscribe__label">
             <span class="subscribe__text">Подпишитесь на рассылку</span>
             <input
