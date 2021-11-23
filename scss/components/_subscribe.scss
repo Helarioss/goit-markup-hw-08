@@ -36,8 +36,6 @@
   min-height: 50px;
   width: 100%;
 
-  margin: 0 auto;
-
   padding: 15px 16px;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -49,6 +47,10 @@
 
   &::placeholder {
     @include font(400, 16px, 1.25, var(--primary-ls), rgba(255, 255, 255, 0.6));
+  }
+
+  @media screen and (max-width: 1199px) {
+    margin: 0 auto;
   }
 
   @media screen and (min-width: 480px) {

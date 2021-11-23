@@ -14,6 +14,10 @@
 }
 
 .footer__top {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: baseline;
@@ -70,16 +74,6 @@
   }
 }
 
-.footer__invite {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 60px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    margin-right: 93px;
-  }
-}
-
 .footer__invite-title {
   margin-bottom: 20px;
 
@@ -88,5 +82,11 @@
 
   @media screen and (max-width: 1199px) {
     text-align: center;
+  }
+}
+
+.footer__subscribe {
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
   }
 }
