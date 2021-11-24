@@ -2,16 +2,22 @@
   display: flex;
   flex-wrap: wrap;
 
-  margin-bottom: -15px;
   margin-right: -8px;
 
+  // margin-bottom: 40px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: -15px;
+  }
+
   @media screen and (min-width: 768px) {
-    flex-wrap: nowrap;
     justify-content: center;
   }
 }
 
 .filter__item {
   margin-right: 8px;
-  margin-bottom: 15px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 15px;
+  }
 }
