@@ -851,7 +851,7 @@ img {
   }
 }
 
-.filter__item {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 

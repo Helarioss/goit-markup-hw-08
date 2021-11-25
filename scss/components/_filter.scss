@@ -19,7 +19,9 @@
 }
 
 .filter__item {
-  margin-right: 8px;
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 
   @media screen and (max-width: 767px) {
     margin-bottom: 15px;
