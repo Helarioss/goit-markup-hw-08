@@ -1,16 +1,22 @@
 .features__list {
-  // margin-bottom: calc(-1 * var(--list-gap));
-  margin: -15px;
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    margin: calc(var(--list-gap) / -2);
   }
 }
 
 .features__item {
-  margin: 15px;
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: var(--list-gap);
+    }
+  }
+
   @media screen and (min-width: 768px) {
+    margin: calc(var(--list-gap) / 2);
     flex-basis: calc((100% - 2 * var(--list-gap)) / 2);
   }
 

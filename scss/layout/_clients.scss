@@ -1,18 +1,24 @@
 .clients__list {
-  margin: -15px;
-
   @media screen and (min-width: 480px) {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    margin: calc(var(--list-gap) / -2);
   }
 }
 
 .clients__item {
   height: 92px;
-  margin: 15px;
+
+  @media screen and (max-width: 479px) {
+    &:not(:last-child) {
+      margin-bottom: var(--list-gap);
+    }
+  }
 
   @media screen and (min-width: 480px) {
+    margin: calc(var(--list-gap) / 2);
     flex-basis: calc((100% - 2 * var(--list-gap)) / 2);
   }
 
